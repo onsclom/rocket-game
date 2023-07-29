@@ -42,6 +42,7 @@ function particle(pos: Vector2, vel: Vector2) {
 
 // assumes canvas draw area is 100x100
 function draw(ctx: CanvasRenderingContext2D, dt: number) {
+  console.log(dt)
   ctx.fillStyle = "blue"
   ctx.fillRect(0, 0, 100, 100)
   // camera follows player
